@@ -1,8 +1,4 @@
 {
-  "cli": {
-    "version": ">= 9.1.0",
-    "requireCommit": true
-  },
   "build": {
     "development": {
       "developmentClient": true,
@@ -11,9 +7,6 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
-  },
-  "submit": {
     "production": {}
   }
 }
