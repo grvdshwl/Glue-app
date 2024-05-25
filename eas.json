@@ -11,12 +11,7 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {},
-    "android": {
-      "base": {
-        "image": "default"
-      }
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
