@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     flex: 1,
+    gap: 8,
   },
   infoBox: {
     alignItems: "center",
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     color: "#000",
     textAlign: "center",
-    fontSize: 16,
+    fontSize: 14,
   },
   followButton: {
     marginHorizontal: 16,

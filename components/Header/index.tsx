@@ -15,7 +15,7 @@ const Header = () => {
       <Pressable onPress={handleCameraPress}>
         <Icon as={CameraIcon} />
       </Pressable>
-      <Text style={styles.title}>Instagram</Text>
+      <Text style={styles.title}>Connect</Text>
       <Icon as={SendIcon} />
     </Box>
   );

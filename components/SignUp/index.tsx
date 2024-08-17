@@ -146,7 +146,7 @@ const SignUp: React.FC = () => {
       </Box>
       <Box style={styles.container}>
         <Box style={styles.box}>
-          <Text style={styles.title}>Instagram </Text>
+          <Text style={styles.title}>Connect</Text>
           <Box style={styles.inputBox}>
             <TextInput
               placeholder="Email"

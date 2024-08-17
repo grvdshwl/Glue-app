@@ -36,7 +36,7 @@ const FollowButton: React.FC<FollowButtonProps> = ({
           style={{
             color: isFollowing ? "#339af0" : "#fff",
             fontWeight: "600",
-            fontSize: 16,
+            fontSize: 14,
           }}
         >
           {isFollowing ? "Following" : "Follow"}

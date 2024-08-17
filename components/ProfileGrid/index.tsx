@@ -16,7 +16,7 @@ interface ProfileGridProps {
 }
 
 const ProfileGrid: React.FC<ProfileGridProps> = ({ postImages, isLoading }) => {
-  const navigation = useNavigation();
+  const navigation: any = useNavigation();
   const { width: screenWidth } = useWindowDimensions();
   if (!postImages.length && !isLoading) {
     return (
@@ -55,9 +55,9 @@ const ProfileGrid: React.FC<ProfileGridProps> = ({ postImages, isLoading }) => {
           <Image
             source={{ uri: item.images[0].url }}
             sx={{
-              height: screenWidth > 420 ? 200 : 100,
+              height: 120,
               flexShrink: 1,
-              width: screenWidth / 3 - 16,
+              width: 120,
               objectFit: "cover",
             }}
             alt={item.images[0].alt}
